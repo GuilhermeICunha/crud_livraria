@@ -1,0 +1,33 @@
+/* [P4-04] Estilos gerais
+   O que faz: define cores, tabela, botões, formulários e alertas.
+   Comunica com: carregado em header.php [P4-01]; as classes (.botao, .alerta, .barra, .inline,
+   .perigo...) são usadas nas views P4 e P5. */
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, sans-serif; background: #f4f6f8; color: #222; }
+.topo { background: #1f3a5f; color: #fff; padding: 12px 24px; display: flex; justify-content: space-between; align-items: center; }
+.topo h1 { margin: 0; font-size: 22px; }
+.topo nav a { color: #fff; text-decoration: none; margin-left: 16px; }
+.topo nav a:hover { text-decoration: underline; }
+.conteudo { max-width: 900px; margin: 24px auto; padding: 0 16px; }
+.rodape { text-align: center; color: #666; font-size: 13px; padding: 20px; }
+.barra { display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; }
+.barra h2 { margin: 0; }
+table { width: 100%; border-collapse: collapse; background: #fff; }
+th, td { padding: 10px; border-bottom: 1px solid #ddd; text-align: left; }
+th { background: #e8edf3; }
+.botao { display: inline-block; background: #2d7dd2; color: #fff; border: 0; padding: 8px 14px; border-radius: 4px; text-decoration: none; cursor: pointer; font-size: 14px; }
+.botao:hover { background: #1f63a8; }
+.botao.pequeno { padding: 5px 10px; font-size: 13px; }
+.botao.perigo { background: #c0392b; }
+.botao.cinza { background: #777; }
+form.inline { display: inline; }
+form.cadastro { background: #fff; padding: 20px; border-radius: 4px; }
+form.cadastro label { display: block; margin: 12px 0 4px; font-weight: bold; }
+form.cadastro input, form.cadastro select { width: 100%; padding: 8px; border: 1px solid #bbb; border-radius: 4px; }
+form.cadastro .acoes { margin-top: 18px; }
+.alerta { padding: 10px 14px; border-radius: 4px; margin-bottom: 14px; }
+.alerta.ok { background: #d4edda; color: #155724; }
+.alerta.erro { background: #f8d7da; color: #721c24; }
+.vazio { background: #fff; padding: 16px; border-radius: 4px; }
+.cartoes { display: flex; gap: 16px; flex-wrap: wrap; }
+.cartao { flex: 1; min-width: 240px; background: #fff; padding: 20px; border-radius: 4px; }
