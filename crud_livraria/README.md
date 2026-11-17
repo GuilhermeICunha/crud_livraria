@@ -4,6 +4,25 @@ Trabalho Prático 2 – Parte 2 | Linguagem e Técnicas de Programação | Prof.
 
 Sistema CRUD com duas entidades relacionadas: **Categorias** (1) → **Livros** (N).
 
+## Informações da Disciplina
+
+- **Curso:** Engenharia de Software
+- **Disciplina:** Linguagem e Técnicas de Programação
+- **Professor:** José Carlos Domingues Flores
+- **Turma:** ESOFT2
+
+## Componentes do Grupo
+
+| RA         | Nome                              |
+|------------|-----------------------------------|
+| 26010633-2 | Enzo Gabriel Vilas Boas Alves     |
+| 26013861-2 | Filipe Przyvitoski Kasenoh        |
+| 26015309-2 | Guilherme Mascarello Cunha        |
+| 26014605-2 | Kaik da Silva Nascimento          |
+| 26014360-2 | Willian Tadeu Ribeiro             |
+|  | Giovana              |
+
+
 ## Como instalar (XAMPP/LAMPP)
 1. Copie a pasta `crud_livraria` para o `htdocs` (no LAMPP/Linux: `/opt/lampp/htdocs/`).
 2. Inicie Apache e MySQL.
@@ -33,8 +52,3 @@ crud_livraria/
 ## Como ler os identificadores
 Cada bloco de código tem um comentário `[Px-yy]`: **x** = parte de estudo (1 a 5), **yy** = número do bloco.
 Os comentários dizem "O que faz" e "Comunica com" (outros blocos, pelo ID).
-
-## Fluxo geral (todo CRUD segue o mesmo caminho)
-- **Ler (R):** navegador → View → Model (SELECT) → View mostra a tabela.
-- **Criar/Editar (C/U):** View (formulário) → POST → Controller (valida) → Model (INSERT/UPDATE) → redireciona para a listagem com mensagem.
-- **Excluir (D):** botão na listagem → POST → Controller → Model (DELETE) → redireciona com mensagem.
