@@ -20,15 +20,6 @@ Sistema CRUD com duas entidades relacionadas: **Categorias** (1) → **Livros** 
 | 26015309-2 | Guilherme Mascarello Cunha        |
 | 26014605-2 | Kaik da Silva Nascimento          |
 | 26014360-2 | Willian Tadeu Ribeiro             |
-|  | Giovana              |
-
-
-## Como instalar (XAMPP/LAMPP)
-1. Copie a pasta `crud_livraria` para o `htdocs` (no LAMPP/Linux: `/opt/lampp/htdocs/`).
-2. Inicie Apache e MySQL.
-3. No phpMyAdmin (http://localhost/phpmyadmin) vá em **Importar**, escolha `banco.sql` e execute.
-4. Acesse http://localhost/crud_livraria/
-5. Se o usuário/senha do MySQL forem diferentes, ajuste `config/conexao.php` [P1-05].
 
 ## Estrutura
 ```
